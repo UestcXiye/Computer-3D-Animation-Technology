@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyRipple - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MyRipple.res" /d "NDEBUG" /d "_AFXDLL" "F:\001\本书所附源代码光盘\Chapter07\MyRipple\MyRipple.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC113.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyRipple.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\MainFrm.cpp"
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\MyRipple.cpp"
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\MyRippleDoc.cpp"
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\MyRippleView.cpp"
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\MyTexture.cpp"
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\Ripple.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC113.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC114.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyRipple.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\001\本书所附源代码光盘\Chapter07\MyRipple\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC114.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC115.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyRipple.pdb" /machine:I386 /out:"Release/MyRipple.exe" 
+".\Release\MainFrm.obj"
+".\Release\MyRipple.obj"
+".\Release\MyRippleDoc.obj"
+".\Release\MyRippleView.obj"
+".\Release\MyTexture.obj"
+".\Release\Ripple.obj"
+".\Release\StdAfx.obj"
+".\Release\MyRipple.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC115.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+MyRipple.cpp
+MyRippleDoc.cpp
+MyRippleView.cpp
+MyTexture.cpp
+Ripple.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyRipple.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
